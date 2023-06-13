@@ -1,7 +1,9 @@
+import { ImgBanner } from './styles';
+
 const Home = () => {
 	return (
 		<div>
-			<h1> home</h1>
+			<ImgBanner />
 		</div>
 	);
 };

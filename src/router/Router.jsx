@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import Layout from '../layouts/Layout';
+import Galeria from '../pages/galeria/Galeria';
 import Home from '../pages/home/Home';
 
 const Router = () => {
@@ -7,7 +8,7 @@ const Router = () => {
 		<Routes>
 			<Route path={'/'} element={<Layout />}>
 				<Route index element={<Home />}></Route>
-				{/* <Route path='/Register' element={<Register />} /> */}
+				<Route path='/Galeria' element={<Galeria />} />
 			</Route>
 		</Routes>
 	);

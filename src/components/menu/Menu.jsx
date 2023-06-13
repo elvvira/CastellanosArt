@@ -1,20 +1,34 @@
 import { NavLink } from 'react-router-dom';
-import { ContainerMenu, StyledIconClose } from './styles';
+import { ContainerMenu, StyledUl } from './styles';
 
-const Menu = setShowMenu => {
+const Menu = ({ showMenu, setShowMenu }) => {
 	return (
-		<ContainerMenu>
-			<StyledIconClose
-				onClick={() => setShowMenu(false)}
-				src='assets/icon-close.svg'
-				alt=''
-			/>
+		<ContainerMenu showMenu={showMenu}>
 			<nav>
-				<ul>
+				<StyledUl>
 					<li>
-						<NavLink to='/'>Home</NavLink>
+						<NavLink onClick={() => setShowMenu(false)} to='/'>
+							INICIO
+						</NavLink>
 					</li>
-				</ul>
+					<li>
+						<NavLink onClick={() => setShowMenu(false)} to='/Galeria'>
+							GALERIA
+						</NavLink>
+					</li>
+					<li>
+						<NavLink to='/Retrato'>RETRATO</NavLink>
+					</li>
+					<li>
+						<NavLink to='/'>PRENSA Y TEXTOS</NavLink>
+					</li>
+					<li>
+						<NavLink to='/'>MI TALLER</NavLink>
+					</li>
+					<li>
+						<NavLink to='/'>CONTACTO</NavLink>
+					</li>
+				</StyledUl>
 			</nav>
 		</ContainerMenu>
 	);

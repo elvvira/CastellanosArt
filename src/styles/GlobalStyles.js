@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
     body{
     margin: 0;
     background-color: whitesmoke;
-    
+    font-family: 'Bodoni Moda', serif, 'Alegreya Sans', sans-serif;
     }
     
     h2{

@@ -1,20 +1,30 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Menu from '../menu/Menu';
-import { ContainerHeader, StyledIconMenu } from './styles';
+import { ContainerHeader, StyledIconMenu, StyledLogo } from './styles';
 
 const Header = () => {
+	const navigate = useNavigate();
+
 	const [showMenu, setShowMenu] = useState(false);
 	return (
 		<div>
 			<ContainerHeader>
-				<img src='assets/logo.png' alt='' />
+				<StyledLogo
+					onClick={() => {
+						navigate('/'), setShowMenu(false);
+					}}
+					src={showMenu ? 'assets/logo-invert.png' : 'assets/logo.png'}
+					alt=''
+				/>
 				<StyledIconMenu
 					onClick={() => setShowMenu(!showMenu)}
-					src='assets/icon-menu.svg'
+					src={showMenu ? 'assets/icon-close.svg' : 'assets/icon-menu.svg'}
 					alt='icon-menu'
 				/>
 			</ContainerHeader>
 			{showMenu && <Menu setShowMenu={setShowMenu} />}
+			<Menu showMenu={showMenu} />
 		</div>
 	);
 };

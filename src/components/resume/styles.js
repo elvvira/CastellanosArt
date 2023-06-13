@@ -1,0 +1,29 @@
+import styled from 'styled-components';
+
+const ContainerResume = styled.div`
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
+	margin-bottom: 5rem;
+	@media screen and (min-width: 768px) {
+		flex-direction: row;
+	}
+`;
+const ResumeTitleContainer = styled.div`
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid black;
+	padding: 1rem;
+	@media screen and (min-width: 768px) {
+		width: 600px;
+	}
+`;
+export { ContainerResume, ResumeTitleContainer };

@@ -33,7 +33,6 @@ const GlobalStyles = createGlobalStyle`
     button{
         background-color: transparent;
         border: 1px solid black;
-        border-radius: 1rem;
         height: 30px;
         width: 100px;
     }

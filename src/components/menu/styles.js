@@ -33,6 +33,9 @@ const StyledUl = styled.ul`
 		font-size: 0.8rem;
 		gap: 2rem;
 	}
+	@media screen and (min-width: 1040px) {
+		font-size: 1rem;
+	}
 `;
 
 export { ContainerMenu, StyledUl };

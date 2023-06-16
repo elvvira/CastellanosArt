@@ -11,10 +11,25 @@ const ContainerFooter = styled.div`
 	gap: 2rem;
 	@media screen and (min-width: 768px) {
 		flex-direction: row;
-		justify-content: center;
+		justify-content: space-between;
+		padding: 0 10% 0 10%;
 	}
 `;
 const StyledLogo = styled.img`
 	width: 200px;
 `;
-export { ContainerFooter, StyledLogo };
+const ContainerContactIcons = styled.div`
+	display: flex;
+	gap: 1rem;
+`;
+const ContactIcon = styled.img`
+	object-fit: contain;
+	width: 40px;
+	height: 40px;
+	padding: 0.5rem;
+	@media screen and (min-width: 768px) {
+		width: 50px;
+		height: 50px;
+	}
+`;
+export { ContainerFooter, StyledLogo, ContainerContactIcons, ContactIcon };

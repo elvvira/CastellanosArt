@@ -15,6 +15,7 @@ const ContainerResume = styled.div`
 `;
 const ResumeTitleContainer = styled.div`
 	width: 100%;
+	height: 60px;
 	margin-right: auto;
 	margin-left: auto;
 	display: flex;
@@ -26,4 +27,9 @@ const ResumeTitleContainer = styled.div`
 		width: 600px;
 	}
 `;
-export { ContainerResume, ResumeTitleContainer };
+
+const Dropdown = styled.div`
+	background-color: #e5e5e5;
+	padding: 1rem;
+`;
+export { ContainerResume, ResumeTitleContainer, Dropdown };

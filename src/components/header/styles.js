@@ -10,6 +10,9 @@ const ContainerHeader = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	/* position: fixed;
+	background-color: white;
+	width: 100vw; */
 	@media screen and (min-width: 768px) {
 		justify-content: center;
 	}

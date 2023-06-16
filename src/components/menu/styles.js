@@ -11,10 +11,11 @@ const ContainerMenu = styled.div`
 	display: flex;
 	justify-content: center;
 	display: ${({ showMenu }) => (showMenu ? 'block' : 'none')};
+	z-index: 1;
+	/* overflow: hidden; */
 	@media screen and (min-width: 768px) {
 		display: block;
 		height: 50px;
-
 		position: relative;
 		background-color: transparent;
 		color: black;

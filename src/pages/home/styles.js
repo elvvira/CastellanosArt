@@ -11,6 +11,7 @@ const ImgBanner = styled.div`
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	/* margin-top: 2rem; */
 	@media screen and (min-width: 768px) {
 		height: 550px;
 		background-image: url('assets/banner-desktop.png');

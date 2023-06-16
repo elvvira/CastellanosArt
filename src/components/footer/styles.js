@@ -9,6 +9,8 @@ const ContainerFooter = styled.div`
 	align-items: center;
 	padding: 2rem;
 	gap: 2rem;
+	position: relative;
+	top: 170px;
 	@media screen and (min-width: 768px) {
 		flex-direction: row;
 		justify-content: space-between;
@@ -28,8 +30,8 @@ const ContactIcon = styled.img`
 	height: 40px;
 	padding: 0.5rem;
 	@media screen and (min-width: 768px) {
-		width: 50px;
-		height: 50px;
+		/* width: 50px;
+		height: 50px; */
 	}
 `;
 export { ContainerFooter, StyledLogo, ContainerContactIcons, ContactIcon };

@@ -39,4 +39,18 @@ const WelcomeTitle = styled.h2`
 		line-height: 3.5rem;
 	}
 `;
-export { StudioImage, ContainerWelcome, WelcomeTitle, ContaineText };
+const StyledButtonTaller = styled.button`
+	@media screen and (min-width: 768px) {
+		&:hover {
+			background-color: black;
+			color: white;
+		}
+	}
+`;
+export {
+	StudioImage,
+	ContainerWelcome,
+	WelcomeTitle,
+	ContaineText,
+	StyledButtonTaller
+};

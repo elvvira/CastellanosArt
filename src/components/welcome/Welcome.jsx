@@ -1,11 +1,15 @@
+import { useNavigate } from 'react-router-dom';
 import {
 	ContainerWelcome,
 	ContaineText,
 	StudioImage,
+	StyledButtonTaller,
 	WelcomeTitle
 } from './styles';
 
 const Welcome = () => {
+	const navigate = useNavigate();
+
 	return (
 		<ContainerWelcome>
 			<ContaineText>
@@ -15,7 +19,13 @@ const Welcome = () => {
 					su evolución hasta la actualidad. Inspirado por la obra de los
 					artistas clásicos comencé a desarrollar mi propia carrera creativa.
 				</p>
-				<button>MI TALLER</button>
+				<StyledButtonTaller
+					onClick={() => {
+						navigate('/Taller');
+					}}
+				>
+					MI TALLER
+				</StyledButtonTaller>
 			</ContaineText>
 
 			<StudioImage src='assets/studio.png' alt='' />

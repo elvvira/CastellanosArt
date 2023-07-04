@@ -3,8 +3,12 @@ import { GALLERY } from '../../constants/gallery';
 import {
 	ContainerGallery,
 	ContainerModal,
+	ContainerModalImg,
 	ContainerPaint,
-	PaintImage
+	ModalImg,
+	PaintImage,
+	StyledImageFooter,
+	StyledStock
 } from './styles';
 
 const Galeria = () => {
@@ -22,14 +26,23 @@ const Galeria = () => {
 							src={paint.img}
 							alt=''
 						/>
-						{/* <p>{paint.text}</p> */}
+						<StyledImageFooter>
+							<p>{paint.text}</p>
+							<StyledStock stock={paint.stock}></StyledStock>
+						</StyledImageFooter>
 					</ContainerPaint>
 				);
 			})}
 			{showPaint && (
 				<ContainerModal>
-					<div onClick={() => setShowPaint(false)}>x</div>
-					<PaintImage src={paintInfo} alt='' />
+					<img
+						onClick={() => setShowPaint(false)}
+						src='assets/icon-close-black.png'
+						alt=''
+					/>
+					<ContainerModalImg>
+						<ModalImg src={paintInfo} alt='' />
+					</ContainerModalImg>
 					<p>texto</p>
 				</ContainerModal>
 			)}

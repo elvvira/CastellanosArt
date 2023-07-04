@@ -20,13 +20,13 @@ const Menu = ({ showMenu, setShowMenu }) => {
 						<NavLink to='/Retrato'>RETRATO</NavLink>
 					</li>
 					<li>
-						<NavLink to='/'>PRENSA Y TEXTOS</NavLink>
+						<NavLink to='/Prensa'>PRENSA Y TEXTOS</NavLink>
 					</li>
 					<li>
-						<NavLink to='/'>MI TALLER</NavLink>
+						<NavLink to='/Taller'>MI TALLER</NavLink>
 					</li>
 					<li>
-						<NavLink to='/'>CONTACTO</NavLink>
+						<NavLink to='/Contact'>CONTACTO</NavLink>
 					</li>
 				</StyledUl>
 			</nav>

@@ -1,5 +1,4 @@
-import { NavLink } from 'react-router-dom';
-import { ContainerMenu, StyledUl } from './styles';
+import { ContainerMenu, StyledLink, StyledUl } from './styles';
 
 const Menu = ({ showMenu, setShowMenu }) => {
 	return (
@@ -7,26 +6,34 @@ const Menu = ({ showMenu, setShowMenu }) => {
 			<nav>
 				<StyledUl>
 					<li>
-						<NavLink onClick={() => setShowMenu(false)} to='/'>
+						<StyledLink onClick={() => setShowMenu(false)} to='/'>
 							INICIO
-						</NavLink>
+						</StyledLink>
 					</li>
 					<li>
-						<NavLink onClick={() => setShowMenu(false)} to='/Galeria'>
+						<StyledLink onClick={() => setShowMenu(false)} to='/Galeria'>
 							GALERIA
-						</NavLink>
+						</StyledLink>
 					</li>
 					<li>
-						<NavLink to='/Retrato'>RETRATO</NavLink>
+						<StyledLink onClick={() => setShowMenu(false)} to='/Retrato'>
+							RETRATO
+						</StyledLink>
 					</li>
 					<li>
-						<NavLink to='/Prensa'>PRENSA Y TEXTOS</NavLink>
+						<StyledLink onClick={() => setShowMenu(false)} to='/Prensa'>
+							PRENSA Y TEXTOS
+						</StyledLink>
 					</li>
 					<li>
-						<NavLink to='/Taller'>MI TALLER</NavLink>
+						<StyledLink onClick={() => setShowMenu(false)} to='/Taller'>
+							MI TALLER
+						</StyledLink>
 					</li>
 					<li>
-						<NavLink to='/Contact'>CONTACTO</NavLink>
+						<StyledLink onClick={() => setShowMenu(false)} to='/Contact'>
+							CONTACTO
+						</StyledLink>
 					</li>
 				</StyledUl>
 			</nav>

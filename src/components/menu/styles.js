@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 const ContainerMenu = styled.div`
 	position: fixed;
@@ -39,4 +40,14 @@ const StyledUl = styled.ul`
 	}
 `;
 
-export { ContainerMenu, StyledUl };
+const StyledLink = styled(NavLink)`
+	color: gray;
+	&:hover {
+		color: black;
+	}
+	&.active {
+		color: black;
+		font-weight: bold;
+	}
+`;
+export { ContainerMenu, StyledUl, StyledLink };

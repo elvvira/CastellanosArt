@@ -8,9 +8,11 @@ const ContainerResume = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	gap: 2rem;
-	margin-bottom: 5rem;
+	margin-bottom: 0rem;
+
 	@media screen and (min-width: 768px) {
 		flex-direction: row;
+		margin-bottom: 5rem;
 	}
 `;
 const ResumeTitleContainer = styled.div`

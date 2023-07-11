@@ -46,8 +46,11 @@ const StyledLink = styled(NavLink)`
 		color: black;
 	}
 	&.active {
-		color: black;
-		font-weight: bold;
+		color: white;
+		@media screen and (min-width: 1040px) {
+			font-weight: bold;
+			color: black;
+		}
 	}
 `;
 export { ContainerMenu, StyledUl, StyledLink };

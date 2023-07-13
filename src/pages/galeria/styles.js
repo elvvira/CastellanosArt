@@ -37,14 +37,15 @@ const PaintImage = styled.img`
 	object-fit: contain;
 `;
 const ContainerModal = styled.div`
-	position: fixed;
-	background-color: white;
-	border: 2px solid black;
-	width: 300px;
+	/* width: 300px;
 	height: 300px;
 	top: 100px;
-	z-index: 10;
+	z-index: 10; */
+
 	@media screen and (min-width: 768px) {
+		position: fixed;
+		background-color: white;
+		border: 2px solid black;
 		top: 90px;
 		left: 15%;
 		width: 700px;

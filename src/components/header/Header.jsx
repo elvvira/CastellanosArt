@@ -5,8 +5,8 @@ import { ContainerHeader, StyledIconMenu, StyledLogo } from './styles';
 
 const Header = () => {
 	const navigate = useNavigate();
-
 	const [showMenu, setShowMenu] = useState(false);
+
 	return (
 		<div>
 			<ContainerHeader>

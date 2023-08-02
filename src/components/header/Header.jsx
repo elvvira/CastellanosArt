@@ -12,6 +12,22 @@ const Header = () => {
 			<ContainerHeader>
 				<StyledLogo
 					onClick={() => {
+						navigate('/');
+						setShowMenu(false);
+					}}
+					src={showMenu ? 'assets/logo-invert.png' : 'assets/logo.png'}
+					alt=''
+				/>
+				<StyledIconMenu
+					onClick={() => setShowMenu(!showMenu)}
+					src={showMenu ? 'assets/icon-close.svg' : 'assets/icon-menu.svg'}
+					alt='icon-menu'
+				/>
+			</ContainerHeader>
+			<Menu showMenu={showMenu} setShowMenu={setShowMenu} />
+			{/* <ContainerHeader>
+				<StyledLogo
+					onClick={() => {
 						navigate('/'), setShowMenu(false);
 					}}
 					src={showMenu ? 'assets/logo-invert.png' : 'assets/logo.png'}
@@ -24,7 +40,7 @@ const Header = () => {
 				/>
 			</ContainerHeader>
 			{showMenu && <Menu setShowMenu={setShowMenu} />}
-			<Menu showMenu={showMenu} />
+			<Menu showMenu={showMenu} /> */}
 		</div>
 	);
 };

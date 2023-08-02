@@ -11,27 +11,27 @@ const Menu = ({ showMenu, setShowMenu }) => {
 						</StyledLink>
 					</li>
 					<li>
-						<StyledLink onClick={() => setShowMenu(false)} to='/Galeria'>
+						<StyledLink onClick={() => setShowMenu(false)} to='/galeria'>
 							GALERIA
 						</StyledLink>
 					</li>
 					<li>
-						<StyledLink onClick={() => setShowMenu(false)} to='/Retrato'>
+						<StyledLink onClick={() => setShowMenu(false)} to='/retrato'>
 							RETRATO
 						</StyledLink>
 					</li>
 					<li>
-						<StyledLink onClick={() => setShowMenu(false)} to='/Prensa'>
+						<StyledLink onClick={() => setShowMenu(false)} to='/prensa'>
 							PRENSA Y TEXTOS
 						</StyledLink>
 					</li>
 					<li>
-						<StyledLink onClick={() => setShowMenu(false)} to='/Taller'>
+						<StyledLink onClick={() => setShowMenu(false)} to='/taller'>
 							MI TALLER
 						</StyledLink>
 					</li>
 					<li>
-						<StyledLink onClick={() => setShowMenu(false)} to='/Contact'>
+						<StyledLink onClick={() => setShowMenu(false)} to='/contact'>
 							CONTACTO
 						</StyledLink>
 					</li>

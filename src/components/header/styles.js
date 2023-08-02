@@ -19,9 +19,9 @@ const ContainerHeader = styled.div`
 `;
 const StyledLogo = styled.img`
 	z-index: 100;
-	width: 190px;
+	width: 170px;
 	@media screen and (min-width: 1040px) {
-		width: 230px;
+		width: 180px;
 	}
 `;
 const StyledIconMenu = styled.img`

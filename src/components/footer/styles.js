@@ -7,10 +7,12 @@ const ContainerFooter = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 2rem;
+	/* padding: 2rem; */
 	gap: 2rem;
+	/* position: relative;
+	top: 170px; */
 	position: relative;
-	top: 170px;
+	bottom: 0;
 	@media screen and (min-width: 768px) {
 		flex-direction: row;
 		justify-content: space-between;

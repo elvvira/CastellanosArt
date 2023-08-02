@@ -7,7 +7,6 @@ const ContainerGallery = styled.div`
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
-	margin-bottom: 1rem;
 	position: relative;
 	@media screen and (min-width: 768px) {
 		width: 90%;
@@ -43,6 +42,8 @@ const ContainerModal = styled.div`
 	z-index: 10; */
 
 	@media screen and (min-width: 768px) {
+		z-index: 10;
+
 		position: fixed;
 		background-color: white;
 		border: 2px solid black;

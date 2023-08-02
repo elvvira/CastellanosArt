@@ -4,7 +4,9 @@ const Retrato = () => {
 	return (
 		<ContainerPortraits>
 			<ContainerPortrait>
-				<PortraitImage src='public/assets/retrato/elvir.jpg' alt='' />
+				<PortraitImage src='/assets/retrato/elvir.jpg' alt='' />
+				<PortraitImage src='/assets/retrato/elvir.jpg' alt='' />
+				<PortraitImage src='/assets/retrato/elvir.jpg' alt='' />
 			</ContainerPortrait>
 		</ContainerPortraits>
 	);

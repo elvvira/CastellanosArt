@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 const ContainerMenu = styled.div`
 	position: fixed;
+
+	overflow: hidden;
 	left: 0;
 	top: 0;
 	display: flex;

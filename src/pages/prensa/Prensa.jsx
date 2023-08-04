@@ -1,5 +1,6 @@
 import { PRENSA } from '../../constants/gallery';
 import {
+	Article,
 	ArticleImg,
 	ContainerPrensa,
 	GalleryPrensa,
@@ -29,9 +30,9 @@ const Prensa = () => {
 			<GalleryPrensa>
 				{PRENSA.map(article => {
 					return (
-						<div key={article.id}>
+						<Article key={article.id}>
 							<ArticleImg src={article.img} alt='' />
-						</div>
+						</Article>
 					);
 				})}
 			</GalleryPrensa>

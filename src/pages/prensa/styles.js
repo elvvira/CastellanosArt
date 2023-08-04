@@ -28,7 +28,7 @@ const ImgHeader = styled.img`
 	background-color: black;
 	object-fit: cover;
 	@media screen and (min-width: 768px) {
-		width: 70%;
+		width: 60%;
 		height: 400px;
 	}
 `;
@@ -37,18 +37,31 @@ const HeaderText = styled.div`
 	font-size: 0.8rem;
 	text-align: justify;
 	@media screen and (min-width: 768px) {
-		width: 50%;
+		width: 40%;
 	}
 `;
 
 const GalleryPrensa = styled.div`
 	width: 100%;
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+	@media screen and (min-width: 768px) {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
 `;
+const Article = styled.div``;
 
 const ArticleImg = styled.img`
 	width: 100%;
 	height: 200px;
 	object-fit: cover;
+	@media screen and (min-width: 768px) {
+		width: 410px;
+		height: 410px;
+	}
 `;
 export {
 	ContainerPrensa,
@@ -56,5 +69,6 @@ export {
 	ImgHeader,
 	HeaderText,
 	GalleryPrensa,
+	Article,
 	ArticleImg
 };

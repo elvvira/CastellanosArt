@@ -31,9 +31,8 @@ const ContactIcon = styled.img`
 	width: 40px;
 	height: 40px;
 	padding: 0.5rem;
-	@media screen and (min-width: 768px) {
-		/* width: 50px;
-		height: 50px; */
+	:hover {
+		opacity: 0.2;
 	}
 `;
 export { ContainerFooter, StyledLogo, ContainerContactIcons, ContactIcon };

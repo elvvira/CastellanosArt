@@ -17,14 +17,15 @@ export const FormContact = () => {
 
 		emailjs
 			.sendForm(
-				'YOUR_SERVICE_ID',
-				'YOUR_TEMPLATE_ID',
+				'service_aj1z1i9',
+				'template_uixpffh',
 				form.current,
-				'YOUR_PUBLIC_KEY'
+				'eEQPBsU9o67a-3hG_'
 			)
 			.then(
 				result => {
 					console.log(result.text);
+					form.current.reset();
 				},
 				error => {
 					console.log(error.text);
@@ -36,15 +37,15 @@ export const FormContact = () => {
 		<StyledForm ref={form} onSubmit={sendEmail}>
 			<ContainerForm>
 				<StyledLabel>Nombre:</StyledLabel>
-				<StyledInput type='text' name='user_name' />
+				<StyledInput type='text' name='user_name' required />
 			</ContainerForm>
 			<ContainerForm>
 				<StyledLabel>Email:</StyledLabel>
-				<StyledInput type='email' name='user_email' />
+				<StyledInput type='email' name='user_email' required />
 			</ContainerForm>
 			<ContainerForm>
 				<StyledLabel>Mensaje:</StyledLabel>
-				<StyledTextArea name='message' />
+				<StyledTextArea name='message' required />
 			</ContainerForm>
 			<StyledButton type='submit' value='Send' />
 		</StyledForm>

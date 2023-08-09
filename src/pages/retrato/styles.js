@@ -17,10 +17,13 @@ const ContainerPortraits = styled.div`
 	}
 `;
 const ContainerPortrait = styled.div`
-	width: 300px;
+	width: 100%;
 	height: 300px;
 	margin-bottom: 2rem;
 	position: relative;
+	@media screen and (min-width: 768px) {
+		width: 300px;
+	}
 `;
 
 const PortraitImage = styled.img`

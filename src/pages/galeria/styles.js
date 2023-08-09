@@ -16,10 +16,13 @@ const ContainerGallery = styled.div`
 	}
 `;
 const ContainerPaint = styled.div`
-	width: 300px;
+	width: 100%;
 	height: 300px;
 	margin-bottom: 2rem;
 	position: relative;
+	@media screen and (min-width: 768px) {
+		width: 300px;
+	}
 	/* ::after {
 		content: '';
 		position: absolute;
@@ -33,6 +36,7 @@ const ContainerPaint = styled.div`
 const PaintImage = styled.img`
 	width: 100%;
 	height: 100%;
+
 	object-fit: contain;
 `;
 const ContainerModal = styled.div`

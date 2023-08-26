@@ -13,7 +13,7 @@ const Contact = () => {
 		<ContainerContact>
 			<ContactHeader>
 				<ImgContact
-					src='https://3.bp.blogspot.com/-Fveq_st6cYI/WFgZT6I3JmI/AAAAAAAC07A/-hTY_v0sWkkgCiZ_AlL4BaNnKgl6s3zcQCLcB/s280/Andr%25C3%25A9s%2BCastellanos-photo03.jpg'
+					src='https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693050614/Retrato_glaafu.jpg'
 					alt=''
 				/>
 				<InfoContact>

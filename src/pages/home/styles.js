@@ -7,14 +7,14 @@ const ContainerHome = styled.div`
 const ImgBanner = styled.div`
 	width: 100%;
 	height: 300px;
-	background-image: url('assets/banner-mobile.png');
+	background-image: url('https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693045082/Flatiron_lvmckm.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 	/* margin-top: 2rem; */
 	@media screen and (min-width: 768px) {
 		height: 550px;
-		background-image: url('assets/banner-desktop.png');
+		background-image: url('https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693045082/Flatiron_lvmckm.jpg');
 	}
 `;
 const ContainerTitular = styled.div`

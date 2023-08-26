@@ -60,8 +60,11 @@ const ArticleImg = styled.img`
 	object-fit: cover;
 	@media screen and (min-width: 768px) {
 		width: 410px;
-		height: 410px;
+		height: 350px;
 	}
+`;
+const ArticleText = styled.p`
+	color: gray;
 `;
 export {
 	ContainerPrensa,
@@ -70,5 +73,6 @@ export {
 	HeaderText,
 	GalleryPrensa,
 	Article,
-	ArticleImg
+	ArticleImg,
+	ArticleText
 };

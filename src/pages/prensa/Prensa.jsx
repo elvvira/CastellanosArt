@@ -2,6 +2,7 @@ import { PRENSA } from '../../constants/gallery';
 import {
 	Article,
 	ArticleImg,
+	ArticleText,
 	ContainerPrensa,
 	GalleryPrensa,
 	HeaderPrensa,
@@ -32,6 +33,7 @@ const Prensa = () => {
 					return (
 						<Article key={article.id}>
 							<ArticleImg src={article.img} alt='' />
+							<ArticleText>{article.text}</ArticleText>
 						</Article>
 					);
 				})}

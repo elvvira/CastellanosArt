@@ -5,8 +5,10 @@ import {
 	ContainerModal,
 	ContainerModalImg,
 	ContainerPaint,
+	ImgIconClose,
 	ModalImg,
 	PaintImage,
+	PaintText,
 	StyledImageFooter,
 	StyledStock
 } from './styles';
@@ -27,7 +29,7 @@ const Galeria = () => {
 							alt=''
 						/>
 						<StyledImageFooter>
-							<p>{paint.text}</p>
+							<PaintText>{paint.text}</PaintText>
 							<StyledStock stock={paint.stock}></StyledStock>
 						</StyledImageFooter>
 					</ContainerPaint>
@@ -35,7 +37,7 @@ const Galeria = () => {
 			})}
 			{showPaint && (
 				<ContainerModal>
-					<img
+					<ImgIconClose
 						onClick={() => setShowPaint(false)}
 						src='assets/icon-close-black.png'
 						alt=''
@@ -43,7 +45,6 @@ const Galeria = () => {
 					<ContainerModalImg>
 						<ModalImg src={paintInfo} alt='' />
 					</ContainerModalImg>
-					<p>texto</p>
 				</ContainerModal>
 			)}
 		</ContainerGallery>

@@ -1,5 +1,10 @@
 import { useState } from 'react';
-import { ContainerResume, Dropdown, ResumeTitleContainer } from './styles';
+import {
+	ContainerResume,
+	Dropdown,
+	ImgIconDrop,
+	ResumeTitleContainer
+} from './styles';
 
 const Resume = () => {
 	const [showHistorial, setShowHistorial] = useState(false);
@@ -10,7 +15,7 @@ const Resume = () => {
 			<div>
 				<ResumeTitleContainer>
 					<p>Historial Académico</p>
-					<img
+					<ImgIconDrop
 						onClick={() => setShowHistorial(!showHistorial)}
 						src={showHistorial ? 'assets/icon-up.png' : 'assets/icon-down.png'}
 						alt=''
@@ -29,7 +34,7 @@ const Resume = () => {
 			<div>
 				<ResumeTitleContainer>
 					<p>Premios y Exposiciones</p>
-					<img
+					<ImgIconDrop
 						onClick={() => setShowCv(!showCv)}
 						src={showCv ? 'assets/icon-up.png' : 'assets/icon-down.png'}
 						alt=''

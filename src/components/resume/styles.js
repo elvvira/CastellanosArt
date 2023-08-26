@@ -29,9 +29,12 @@ const ResumeTitleContainer = styled.div`
 		width: 600px;
 	}
 `;
+const ImgIconDrop = styled.img`
+	width: 30px;
+`;
 
 const Dropdown = styled.div`
 	background-color: #e5e5e5;
 	padding: 1rem;
 `;
-export { ContainerResume, ResumeTitleContainer, Dropdown };
+export { ContainerResume, ResumeTitleContainer, ImgIconDrop, Dropdown };

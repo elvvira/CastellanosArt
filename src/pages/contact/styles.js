@@ -53,6 +53,8 @@ const ContainerContactInfo = styled.div`
 `;
 const TextContact = styled.p`
 	width: 100%;
+	font-style: italic;
+	color: gray;
 	font-family: 'Alegreya Sans', sans-serif;
 
 	@media screen and (min-width: 768px) {

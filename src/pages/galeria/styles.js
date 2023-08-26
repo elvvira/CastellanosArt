@@ -39,6 +39,11 @@ const PaintImage = styled.img`
 
 	object-fit: contain;
 `;
+const PaintText = styled.p`
+	font-size: 0.8rem;
+	color: gray;
+	font-style: italic;
+`;
 const ContainerModal = styled.div`
 	/* width: 300px;
 	height: 300px;
@@ -50,17 +55,17 @@ const ContainerModal = styled.div`
 
 		position: fixed;
 		background-color: white;
-		border: 2px solid black;
+		border: 1px solid black;
 		top: 90px;
 		left: 15%;
 		width: 700px;
-		height: 700px;
+		height: 650px;
 		transform: translate(20%);
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 1rem;
-		padding: 1.7rem;
+		padding: 1.8rem;
 	}
 `;
 
@@ -73,6 +78,9 @@ const ModalImg = styled.img`
 	height: 100%;
 	object-fit: contain;
 `;
+const ImgIconClose = styled.img`
+	width: 18px;
+`;
 const StyledImageFooter = styled.div`
 	display: flex;
 	align-items: center;
@@ -80,18 +88,20 @@ const StyledImageFooter = styled.div`
 	gap: 2rem;
 `;
 const StyledStock = styled.div`
-	width: 10px;
-	height: 10px;
+	width: 8px;
+	height: 8px;
 	border-radius: 100%;
 	background-color: ${({ stock }) => (stock ? 'green' : 'red')};
 `;
 export {
 	ContainerGallery,
 	ContainerPaint,
+	PaintText,
 	PaintImage,
 	ContainerModal,
 	ContainerModalImg,
 	ModalImg,
 	StyledStock,
-	StyledImageFooter
+	StyledImageFooter,
+	ImgIconClose
 };

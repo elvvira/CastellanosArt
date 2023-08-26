@@ -27,10 +27,14 @@ const NewsTitle = styled.h2`
 `;
 const NewsImg = styled.img`
 	width: 100%;
-	height: 250px;
+	height: 350px;
 	background-color: gray;
+	object-fit: cover;
+	object-position: top;
 	@media screen and (min-width: 768px) {
-		height: 400px;
+		width: 70%;
+
+		height: 600px;
 		font-size: 1.2rem;
 	}
 `;

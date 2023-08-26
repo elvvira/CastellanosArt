@@ -11,7 +11,10 @@ const News = () => {
 		<ContainerNews>
 			<NewsTitle>Lo último</NewsTitle>
 			<NewsContent>
-				<NewsImg src='' alt='' />
+				<NewsImg
+					src='https://www.andrescastellanos.com/s/cc_images/cache_2493629907.jpg?t=1688038344'
+					alt=''
+				/>
 				<NewsText>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
 					aliquid at accusamus consectetur esse similique quisquam nam.

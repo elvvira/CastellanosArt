@@ -7,7 +7,7 @@ const ContainerContact = styled.div`
 	flex-direction: column;
 	gap: 3rem;
 	@media screen and (min-width: 768px) {
-		width: 90%;
+		width: 50%;
 	}
 `;
 const ContactHeader = styled.div`
@@ -28,6 +28,7 @@ const ImgContact = styled.img`
 	@media screen and (min-width: 768px) {
 		width: 400px;
 		height: 300px;
+		border-radius: 4rem;
 	}
 `;
 const InfoContact = styled.p`
@@ -46,7 +47,7 @@ const ContainerContactInfo = styled.div`
 	margin-right: auto;
 	margin-left: auto;
 	@media screen and (min-width: 768px) {
-		width: 50%;
+		width: 100%;
 		align-items: flex-end;
 		text-align: right;
 	}

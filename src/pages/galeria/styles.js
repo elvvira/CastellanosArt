@@ -91,7 +91,7 @@ const StyledStock = styled.div`
 	width: 8px;
 	height: 8px;
 	border-radius: 100%;
-	background-color: ${({ stock }) => (stock ? 'green' : 'red')};
+	background-color: ${({ stock }) => (stock ? 'transparent' : 'red')};
 `;
 export {
 	ContainerGallery,

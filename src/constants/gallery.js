@@ -5,26 +5,15 @@ export const GALLERY = [
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693043924/aarbolN.Y_hgtaoy.jpg',
 		text: 'Árbol NY',
-		stock: false
+		stock: true
 	},
 	{
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693043925/abalcon-taller_gguxog.jpg',
 		text: 'El balcón del taller',
-		stock: false
+		stock: true
 	},
-	{
-		id: v4(),
-		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693043924/Bahnhofstrasse_he52qq.jpg',
-		text: 'Bahnhofstrasse',
-		stock: false
-	},
-	{
-		id: v4(),
-		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693043924/Barcelona_ehkpkb.jpg',
-		text: 'Barcelona',
-		stock: false
-	},
+
 	{
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693043925/bella-de-espaldas_d2y1am.jpg',
@@ -41,13 +30,13 @@ export const GALLERY = [
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693043925/aliberty-_h2ib1y.jpg',
 		text: 'Liberty',
-		stock: false
+		stock: true
 	},
 	{
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693044401/NY_shopping_center_do3mog.jpg',
 		text: 'N.Y. Shopping',
-		stock: false
+		stock: true
 	},
 	{
 		id: v4(),
@@ -77,7 +66,20 @@ export const GALLERY = [
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693045082/Flatiron_lvmckm.jpg',
 		text: 'Flatiron Building',
-		stock: false
+		stock: true
+	},
+
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693044398/San-Javier_-playa_mwwda4.jpg',
+		text: 'San Javier Playa',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693044366/Chica_del_lago_e12ufb.jpg',
+		text: 'La chica del Lago',
+		stock: true
 	},
 	{
 		id: v4(),
@@ -87,14 +89,14 @@ export const GALLERY = [
 	},
 	{
 		id: v4(),
-		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693044398/San-Javier_-playa_mwwda4.jpg',
-		text: 'San Javier Playa',
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693043924/Barcelona_ehkpkb.jpg',
+		text: 'Barcelona',
 		stock: false
 	},
 	{
 		id: v4(),
-		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693044366/Chica_del_lago_e12ufb.jpg',
-		text: 'La chica del Lago',
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693043924/Bahnhofstrasse_he52qq.jpg',
+		text: 'Bahnhofstrasse',
 		stock: false
 	}
 ];
@@ -130,11 +132,7 @@ export const PORTRAITS = [
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693048067/cache_2465009070_palkkc.jpg',
 		text: 'Marianista Descalzo'
 	},
-	{
-		id: v4(),
-		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693048079/cache_2465009071_euuluo.jpg',
-		text: 'Sr Lopez'
-	},
+
 	{
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693048461/cache_2465009072_y6xp7p.jpg',
@@ -150,20 +148,11 @@ export const PORTRAITS = [
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693048103/cache_2465009074_boqvxz.jpg',
 		text: 'S.M. Rey Juan Carlos I'
 	},
-	{
-		id: v4(),
-		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693048635/cache_2465009075_z93ku8.jpg',
-		text: 'Ministro Lerma'
-	},
+
 	{
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693048697/cache_2465009076_zw09zd.jpg',
 		text: 'Ministro Eguiagaray'
-	},
-	{
-		id: v4(),
-		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693048773/cache_2465009077_lpgwyz.jpg',
-		text: 'Presidente Congreso Jesus Posada'
 	}
 ];
 export const PRENSA = [

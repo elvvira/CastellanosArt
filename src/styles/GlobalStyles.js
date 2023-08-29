@@ -7,7 +7,10 @@ const GlobalStyles = createGlobalStyle`
 
     body{
     margin: 0;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    /* border-color: gray; */
+	background-color: #D9D9D9;
+
     font-family: 'Bodoni Moda', serif, 'Alegreya Sans', sans-serif;
     }
     

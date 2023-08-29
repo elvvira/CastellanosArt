@@ -13,15 +13,16 @@ const Contact = () => {
 		<ContainerContact>
 			<ContactHeader>
 				<ImgContact
-					src='https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693050614/Retrato_glaafu.jpg'
+					src='https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693332799/cache_2485278712_ttldfp.jpg'
 					alt=''
 				/>
 				<InfoContact>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-					nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-					volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-					ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-					Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+					¡Hola y bienvenido a mi página! Me alegra saber que estás interesado
+					en contactar conmigo.
+					<br />
+					Si tienes alguna pregunta sobre mis obras de arte, estilos de pintura,
+					encargos personalizados o cualquier otro asunto relacionado con mi
+					trabajo, no dudes en ponerte en contacto.
 				</InfoContact>
 			</ContactHeader>
 			<ContainerContactInfo>

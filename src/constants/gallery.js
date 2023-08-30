@@ -3,8 +3,110 @@ import { v4 } from 'uuid';
 export const GALLERY = [
 	{
 		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386663/Alemana_wqp4wz.jpg',
+		text: 'Alemana',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386663/acielo-de-Madrid_kaaypm.jpg',
+		text: 'Madrid',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386663/Arbol_Londres_iw6rjn.jpg',
+		text: 'Arbol Londres',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386663/20230228_173113_1_nfosdl.jpg',
+		text: 'NY',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386663/desnudo-con-mo%CC%81vil_poywzb.jpg',
+		text: 'Desnudo con móvil',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386664/desnudo-la-palma_st6skx.jpg',
+		text: 'Desnudo la Palma',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386664/foggy-Bryant-Park_ndqz4u.jpg',
+		text: 'Foggy Bryant Park',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386664/Executive_woman_dvjsrh.jpg',
+		text: 'Mujer ejecutiva',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386665/noche_de_luna_wfksut.jpg',
+		text: 'Noche de luna',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386665/humo_San_Francisco2_e137xc.jpg',
+		text: 'Humo San Francisco',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386665/Ciudad-20x20_monx9o.jpg',
+		text: 'Ciudad',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386665/Limmat-river_ea7dh9.jpg',
+		text: 'Limmat river',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386665/farola_jurn48.jpg',
+		text: 'Farola',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386665/caballo_blanco_winzsk.jpg',
+		text: 'Caballo blanco',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386666/Lavapies_glxxuo.jpg',
+		text: 'Lavapies',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386666/still_life_on_the_rooftop_brspev.jpg',
+		text: 'Azotea',
+		stock: true
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386667/Poste-ele%CC%81ctrico_th49vr.jpg',
+		text: 'Poste',
+		stock: true
+	},
+	{
+		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693043924/aarbolN.Y_hgtaoy.jpg',
-		text: 'Árbol NY',
+		text: 'Arbol NY',
 		stock: true
 	},
 	{
@@ -83,6 +185,68 @@ export const GALLERY = [
 	},
 	{
 		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693387884/arbol_gris_fpxukt.jpg',
+		text: 'Arbol gris',
+		stock: false
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693387884/gorrio%CC%81n_lo99js.jpg',
+		text: 'Gorrión',
+		stock: false
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693387886/Trees_in_the_storm_ycglpc.jpg',
+		text: 'Trees in the storm',
+		stock: false
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693387887/almudena_xbcuam.jpg',
+		text: 'Almudena',
+		stock: false
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693387884/Patricia_q7puth.jpg',
+		text: 'Patricia',
+		stock: false
+	},
+
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693387884/caballo_blanco_vhplod.jpg',
+		text: 'Caballo blanco',
+		stock: false
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693387883/Boston_fnur8q.jpg',
+		text: 'Boston',
+		stock: false
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693387883/Ana_s6s2s1.jpg',
+		text: 'Ana',
+		stock: false
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693387883/arbol-madrid_xhx8bp.jpg',
+		text: 'Arbol Madrid',
+		stock: false
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693387882/001_rioy0h.jpg',
+		text: 'Caballo',
+		stock: false
+	},
+
+	{
+		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693045094/Tina--Ginebra_lffauw.jpg',
 		text: 'Tina Ginebra',
 		stock: false
@@ -104,8 +268,53 @@ export const GALLERY = [
 export const PORTRAITS = [
 	{
 		id: v4(),
-		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693047943/cache_2465009064_uftw5w.jpg',
-		text: 'Sra Roco'
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388339/Decano_Rector_Joaquin_efvcrk.jpg',
+		text: 'Decano Rector Joaquin'
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388302/Decano_Pedro_Veterinaria_r3x3pm.jpg',
+		text: 'Decano Pedro Veterinaria'
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388338/mila_h76ta9.jpg',
+		text: 'Mila'
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388338/Decano_Macorra_mk92u6.jpg',
+		text: 'Decano Macorra'
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388341/cuadro_tlibmc.jpg',
+		text: 'Rosa'
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388338/Decano_Juan_cnfswk.jpg',
+		text: 'Decano Juan'
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388338/Decano_Enrique_hxwmrr.jpg',
+		text: 'Decano Enrique'
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388339/DSC00835_egreu8.jpg',
+		text: 'Egreu'
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388338/Decano_Lorena_duzsep.jpg',
+		text: 'Decano Lorena'
+	},
+	{
+		id: v4(),
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388338/mariajesus_azvsvb.jpg',
+		text: 'Maria Jesús'
 	},
 	{
 		id: v4(),
@@ -206,42 +415,26 @@ export const PRENSA = [
 export const TALLER = [
 	{
 		id: v4(),
-		img: 'https://raulromeroarte.com/wp-content/uploads/2016/12/01-1.jpg',
-		text: 'catedral'
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693389235/20170117_095602_zpekx9.jpg'
 	},
 	{
 		id: v4(),
-		img: 'https://www.artelibre.net/login/uploads/obras/Elvira1.jpg',
-		text: '2'
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693389235/paleta_pintor_lb3ieb.jpg'
 	},
 	{
 		id: v4(),
-		img: 'https://3.bp.blogspot.com/-VwQXiHUK5SI/WFgZBiYunXI/AAAAAAAC04g/s7TfdKbgp2Q-7j2XbG5kKFDaEC_GS6GQwCLcB/s1600/Andr%25C3%25A9s%2BCastellanos%2B%252810%2529.jpg',
-		text: '3'
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693389235/Estudio_qzbmb1.jpg'
 	},
 	{
 		id: v4(),
-		img: 'https://3.bp.blogspot.com/-0EgLDRHhusM/WFgajP5tFxI/AAAAAAAC070/-7lkahJVAZUg6F7S2R1Ktx131doqaE89ACLcB/s1600/Andr%25C3%25A9s%2BCastellanos%2B%252852%2529.jpg',
-		text: '4'
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693389234/Estudio3_rbcnaa.jpg'
 	},
 	{
 		id: v4(),
-		img: 'https://www.artelibre.net/login/uploads/obras/112313170655.jpg',
-		text: '5'
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693389235/pintor2_jsqssi.jpg'
 	},
 	{
 		id: v4(),
-		img: 'https://www.artelibre.net/login/uploads/obras/andres9.jpg',
-		text: '6'
-	},
-	{
-		id: v4(),
-		img: 'https://www.artelibre.net/login/uploads/obras/andres42.jpg',
-		text: '6'
-	},
-	{
-		id: v4(),
-		img: 'https://www.artelibre.net/login/uploads/obras/andres38.jpg',
-		text: '6'
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693389234/Estudio2_phialz.jpg'
 	}
 ];

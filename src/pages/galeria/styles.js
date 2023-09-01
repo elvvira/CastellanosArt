@@ -90,6 +90,7 @@ const StyledImageFooter = styled.div`
 const StyledStock = styled.div`
 	width: 8px;
 	height: 8px;
+	position: ${({ stock }) => (stock ? 'absolute' : 'relative')};
 	border-radius: 100%;
 	background-color: ${({ stock }) => (stock ? 'transparent' : 'red')};
 `;

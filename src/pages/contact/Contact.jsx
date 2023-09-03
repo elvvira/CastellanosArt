@@ -13,7 +13,7 @@ const Contact = () => {
 		<ContainerContact>
 			<ContactHeader>
 				<ImgContact
-					src='https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693332799/cache_2485278712_ttldfp.jpg'
+					src='https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693389235/pintor2_jsqssi.jpg'
 					alt=''
 				/>
 				<InfoContact>

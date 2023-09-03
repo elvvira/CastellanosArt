@@ -431,7 +431,7 @@ export const TALLER = [
 	},
 	{
 		id: v4(),
-		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693389235/pintor2_jsqssi.jpg'
+		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693767793/torculo_omwkp0.jpg'
 	},
 	{
 		id: v4(),

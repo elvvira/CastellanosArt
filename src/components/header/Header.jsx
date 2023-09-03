@@ -25,22 +25,6 @@ const Header = () => {
 				/>
 			</ContainerHeader>
 			<Menu showMenu={showMenu} setShowMenu={setShowMenu} />
-			{/* <ContainerHeader>
-				<StyledLogo
-					onClick={() => {
-						navigate('/'), setShowMenu(false);
-					}}
-					src={showMenu ? 'assets/logo-invert.png' : 'assets/logo.png'}
-					alt=''
-				/>
-				<StyledIconMenu
-					onClick={() => setShowMenu(!showMenu)}
-					src={showMenu ? 'assets/icon-close.svg' : 'assets/icon-menu.svg'}
-					alt='icon-menu'
-				/>
-			</ContainerHeader>
-			{showMenu && <Menu setShowMenu={setShowMenu} />}
-			<Menu showMenu={showMenu} /> */}
 		</div>
 	);
 };

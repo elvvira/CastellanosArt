@@ -14,7 +14,10 @@ const Prensa = () => {
 	return (
 		<ContainerPrensa>
 			<HeaderPrensa>
-				<ImgHeader src='/assets/prensa/prensa.png' alt='' />
+				<ImgHeader
+					src='https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693766798/DSC07522_qd4apw.jpg'
+					alt=''
+				/>
 				<HeaderText>
 					Licenciado y Doctor en Bellas Artes por la Universidad Complutense de
 					Madrid. Son ya más de 35 años en el mundo de la pintura, trabajando

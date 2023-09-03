@@ -7,14 +7,14 @@ const ContainerHome = styled.div`
 const ImgBanner = styled.div`
 	width: 100%;
 	height: 300px;
-	background-image: url('https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693045082/Flatiron_lvmckm.jpg');
+	background-image: url('public/assets/Bahnhofstrasse.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
 	/* margin-top: 2rem; */
 	@media screen and (min-width: 768px) {
 		height: 550px;
-		background-image: url('https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693045082/Flatiron_lvmckm.jpg');
+		background-image: url('public/assets/Bahnhofstrasse.jpg');
 	}
 `;
 const ContainerTitular = styled.div`

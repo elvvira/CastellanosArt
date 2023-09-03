@@ -28,7 +28,7 @@ const ImgContact = styled.img`
 	@media screen and (min-width: 768px) {
 		width: 400px;
 		height: 300px;
-		border-radius: 4rem;
+		border-radius: 2rem;
 	}
 `;
 const InfoContact = styled.p`

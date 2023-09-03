@@ -28,6 +28,7 @@ const StudioImage = styled.img`
 	@media screen and (min-width: 768px) {
 		width: 100%;
 		height: 400px;
+		object-fit: cover;
 	}
 `;
 const WelcomeTitle = styled.h2`

@@ -12,12 +12,16 @@ const News = () => {
 			<NewsTitle>Lo último</NewsTitle>
 			<NewsContent>
 				<NewsImg
-					src='https://www.andrescastellanos.com/s/cc_images/cache_2493629907.jpg?t=1688038344'
+					src='https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693766798/1four-seasons_ioss6n.jpg'
 					alt=''
 				/>
 				<NewsText>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-					aliquid at accusamus consectetur esse similique quisquam nam.
+					El sentido de estos últimos cuatro cuadros es su visión en conjunto. "
+					Las cuatro estaciones". Es una reflexión sobre el paso del tiempo. A
+					una bonita y fresca mañana de primavera, le sucede una cálida y
+					ensoñada noche de verano, después una, quizás algo triste, mañana de
+					otoño, y finalmente una tremenda, inquietante y triste noche de
+					invierno.
 				</NewsText>
 			</NewsContent>
 		</ContainerNews>

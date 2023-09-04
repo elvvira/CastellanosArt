@@ -7,14 +7,14 @@ const ContainerHome = styled.div`
 const ImgBanner = styled.div`
 	width: 100%;
 	height: 300px;
-	background-image: url('public/assets/Bahnhofstrasse.jpg');
+	background-image: url('/assets/Bahnhofstrasse.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
 	/* margin-top: 2rem; */
 	@media screen and (min-width: 768px) {
 		height: 550px;
-		background-image: url('public/assets/Bahnhofstrasse.jpg');
+		background-image: url('/assets/Bahnhofstrasse.jpg');
 	}
 `;
 const ContainerTitular = styled.div`

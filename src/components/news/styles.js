@@ -27,7 +27,6 @@ const NewsTitle = styled.h2`
 `;
 const NewsImg = styled.img`
 	width: 100%;
-	height: 310px;
 	background-color: gray;
 	object-fit: contain;
 	object-position: top;

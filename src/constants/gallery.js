@@ -4,13 +4,13 @@ export const GALLERY = [
 	{
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386663/Alemana_wqp4wz.jpg',
-		text: 'Alemana',
+		text: 'Tarde de playa',
 		stock: true
 	},
 	{
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386663/acielo-de-Madrid_kaaypm.jpg',
-		text: 'Madrid',
+		text: 'Lavapiés',
 		stock: true
 	},
 	{

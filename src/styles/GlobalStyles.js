@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     /* background-color: whitesmoke; */
     /* border-color: gray; */
-	background-color: #D9D9D9;
+	background-color: #D2D2D2;
 
     font-family: 'Bodoni Moda', serif, 'Alegreya Sans', sans-serif;
     }

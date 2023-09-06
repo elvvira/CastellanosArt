@@ -6,7 +6,7 @@ const Taller = () => {
 		<ContainerTaller>
 			{TALLER.map(item => {
 				return (
-					<div>
+					<div key={item.id}>
 						<TallerImg src={item.img} alt='' />
 					</div>
 				);

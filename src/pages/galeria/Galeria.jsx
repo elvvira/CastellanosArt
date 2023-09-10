@@ -16,6 +16,7 @@ import {
 const Galeria = () => {
 	const [showPaint, setShowPaint] = useState(false);
 	const [paintInfo, setPaintInfo] = useState('');
+
 	return (
 		<ContainerGallery>
 			{GALLERY.map(paint => {

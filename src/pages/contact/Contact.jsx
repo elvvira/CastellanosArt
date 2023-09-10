@@ -12,10 +12,7 @@ const Contact = () => {
 	return (
 		<ContainerContact>
 			<ContactHeader>
-				<ImgContact
-					src='https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693389235/pintor2_jsqssi.jpg'
-					alt=''
-				/>
+				<ImgContact src='assets/contact/pintor2_jsqssi.jpg' alt='' />
 				<InfoContact>
 					¡Hola y bienvenido a mi página! Me alegra saber que estás interesado
 					en contactar conmigo.

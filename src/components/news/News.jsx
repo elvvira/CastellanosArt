@@ -11,10 +11,7 @@ const News = () => {
 		<ContainerNews>
 			<NewsTitle>Lo último</NewsTitle>
 			<NewsContent>
-				<NewsImg
-					src='https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693766798/1four-seasons_ioss6n.jpg'
-					alt=''
-				/>
+				<NewsImg src='assets/news/1four-seasons_ioss6n.jpg' alt='' />
 				<NewsText>
 					El sentido de estos últimos cuatro cuadros es su visión en conjunto. "
 					Las cuatro estaciones". Es una reflexión sobre el paso del tiempo. A

@@ -33,7 +33,7 @@ const ContainerPaint = styled.div`
 	} */
 `;
 
-const PaintImage = styled.div`
+const PaintImage = styled.img`
 	width: 100%;
 	height: 100%;
 

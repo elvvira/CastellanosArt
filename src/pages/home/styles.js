@@ -37,6 +37,7 @@ const IconMarks = styled.img`
 	left: -10px;
 	z-index: -10;
 	width: 60px;
+	filter: invert(0.1);
 	@media screen and (min-width: 768px) {
 		width: 90px;
 		top: 40px;

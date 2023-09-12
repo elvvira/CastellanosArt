@@ -1,0 +1,7 @@
+# Habilitar el mod_rewrite
+RewriteEngine On
+
+# Si la solicitud no es para un archivo o directorio existente, redirige a index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [L,QSA]

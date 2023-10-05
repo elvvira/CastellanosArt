@@ -276,11 +276,7 @@ export const PORTRAITS = [
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388302/Decano_Pedro_Veterinaria_r3x3pm.jpg',
 		text: 'Decano Pedro Veterinaria'
 	},
-	{
-		id: v4(),
-		img: '/assets/cabecera.jpg',
-		text: 'Decano Pedro Veterinaria'
-	},
+
 	{
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388338/mila_h76ta9.jpg',

@@ -1,3 +1,4 @@
+import VisitorCounter from '../visiterCounter/VisiterCounter';
 import {
 	ContactIcon,
 	ContainerContactIcons,
@@ -9,6 +10,7 @@ const Footer = () => {
 	return (
 		<ContainerFooter>
 			<StyledLogo src='assets/logo-invert.png' alt='' />
+			<VisitorCounter />
 			<ContainerContactIcons>
 				<a href='https://www.instagram.com/castellanos.art/'>
 					<ContactIcon src='assets/icon-ig.png' alt='' />{' '}

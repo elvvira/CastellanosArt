@@ -11,7 +11,7 @@ const News = () => {
 		<ContainerNews>
 			<NewsTitle>News</NewsTitle>
 			<NewsContent>
-				<NewsImg src='dist/assets/news/Andres Castellanos.jpg' alt='' />
+				<NewsImg src='assets/news/Andres Castellanos.jpg' alt='' />
 				<NewsText>
 					Thrilled to be part of the Plus One Gallery Christmas Show held from
 					December 14th, 2023 to January 22nd, 2024!
@@ -30,7 +30,7 @@ const News = () => {
 				</NewsText>
 			</NewsContent>
 			<NewsContent>
-				<NewsImg src='dist/assets/news/Decano-Jose-Luis-Alvarez.jpg' alt='' />
+				<NewsImg src='assets/news/Decano-Jose-Luis-Alvarez.jpg' alt='' />
 				<NewsText>
 					Retrato decano Jose Luis Álvarez-Sala Walther. 92x65cm
 				</NewsText>

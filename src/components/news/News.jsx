@@ -11,7 +11,7 @@ const News = () => {
 		<ContainerNews>
 			<NewsTitle>News</NewsTitle>
 			<NewsContent>
-				<NewsImg src='dist/assets/news/AndresCastellanos.jpg' alt='' />
+				<NewsImg src='dist/assets/news/Andres Castellanos.jpg' alt='' />
 				<NewsText>
 					Thrilled to be part of the Plus One Gallery Christmas Show held from
 					December 14th, 2023 to January 22nd, 2024!

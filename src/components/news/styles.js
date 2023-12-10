@@ -17,6 +17,7 @@ const NewsContent = styled.div`
 	@media screen and (min-width: 768px) {
 		flex-direction: row;
 		align-items: flex-end;
+		padding-bottom: 4rem;
 	}
 `;
 const NewsTitle = styled.h2`
@@ -26,13 +27,12 @@ const NewsTitle = styled.h2`
 	}
 `;
 const NewsImg = styled.img`
-	width: 100%;
-	background-color: gray;
+	/* width: 100%; */
+	/* background-color: gray; */
 	object-fit: contain;
 	object-position: top;
 	@media screen and (min-width: 768px) {
-		width: 70%;
-
+		/* width: 70%; */
 		height: 550px;
 		font-size: 1.2rem;
 	}
@@ -44,7 +44,8 @@ const NewsText = styled.p`
 	width: 100%;
 	@media screen and (min-width: 768px) {
 		font-size: 1.2rem;
-		width: 80%;
+		/* width: 80%; */
+		width: 400px;
 	}
 `;
 export { ContainerNews, NewsTitle, NewsImg, NewsText, NewsContent };

@@ -69,7 +69,8 @@ const Resume = () => {
 						Arte y Ciencia Siglo XXI " <br /> · Sala Vimcorsa ( Diputación
 						Córdoba) " El renacer de la figuración "
 						<br /> · Palacio Einaudi - Chivasso (Turín) "GrandesPintores del
-						realismo internacional en 20 x20 "
+						realismo internacional en 20 x20 " <br /> · Sala de Música del
+						Palacio Infante don Luis. Exposición "Unisonía"
 					</Dropdown>
 				)}
 			</div>

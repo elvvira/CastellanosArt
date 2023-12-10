@@ -4,7 +4,7 @@ export const GALLERY = [
 	{
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386663/Alemana_wqp4wz.jpg',
-		text: 'Alemana',
+		text: 'Baño',
 		stock: true
 	},
 	{
@@ -64,7 +64,7 @@ export const GALLERY = [
 	{
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693386665/Ciudad-20x20_monx9o.jpg',
-		text: 'Ciudad',
+		text: 'Boston',
 		stock: true
 	},
 	{
@@ -155,7 +155,7 @@ export const GALLERY = [
 	{
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693043925/Ban%CC%83o-de-sol_tutcfm.jpg',
-		text: 'Marta',
+		text: 'Baño de Sol',
 		stock: true
 	},
 	{
@@ -273,6 +273,11 @@ export const PORTRAITS = [
 	},
 	{
 		id: v4(),
+		img: 'dist/assets/news/Decano-Jose-Luis-Alvarez.jpg',
+		text: 'Decano Jose Luis Álvarez'
+	},
+	{
+		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388302/Decano_Pedro_Veterinaria_r3x3pm.jpg',
 		text: 'Decano Pedro Veterinaria'
 	},
@@ -290,7 +295,7 @@ export const PORTRAITS = [
 	{
 		id: v4(),
 		img: 'https://res.cloudinary.com/dy8bhxzfx/image/upload/f_auto,q_auto/v1693388341/cuadro_tlibmc.jpg',
-		text: 'Rosa'
+		text: 'Carmen'
 	},
 	{
 		id: v4(),
